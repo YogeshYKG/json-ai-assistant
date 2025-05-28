@@ -1,0 +1,64 @@
+## 📂 Folder Structure
+> Generated on `28/5/2025, 11:32:05 pm`
+
+- 📄 `.gitignore`
+- 📁 `custom_scripts`
+  - 📄 `generateFolderStructure.mjs`
+- 📄 `eslint.config.js`
+- 📄 `index.html`
+- 📄 `package-lock.json`
+- 📄 `package.json`
+- 📁 `public`
+  - 📁 `documents`
+    - 📁 `folderStructure`
+      - 📄 `folderStructure.md`
+- 📄 `README.md`
+- 📁 `src`
+  - 📁 `__tests__`
+    - 📄 `setup.ts`
+  - 📄 `.eslintrc.json`
+  - 📄 `.prettierrc`
+  - 📄 `App.tsx`
+  - 📁 `assets`
+  - 📁 `components`
+    - 📁 `Editor`
+      - 📄 `FileTabs.tsx`
+      - 📄 `JsonEditor.module.css`
+      - 📄 `JsonEditor.tsx`
+      - 📄 `Toolbar.tsx`
+    - 📁 `Header`
+      - 📄 `Header.tsx`
+      - 📄 `SearchBar.tsx`
+      - 📄 `UserProfile.tsx`
+      - 📄 `WorkspaceDropdown.tsx`
+    - 📁 `Layout`
+      - 📄 `AppLayout.tsx`
+      - 📄 `Splitter.tsx`
+    - 📁 `Output`
+      - 📄 `JsonViewer.tsx`
+      - 📄 `MarkdownViewer.tsx`
+      - 📄 `TabPanel.tsx`
+      - 📄 `TreeView.tsx`
+    - 📁 `Sidebar`
+      - 📄 `ProjectThumbnail.tsx`
+      - 📄 `Sidebar.tsx`
+      - 📄 `SidebarSection.tsx`
+  - 📁 `hooks`
+    - 📄 `useJsonState.ts`
+    - 📄 `useRealTimeAnalysis.ts`
+  - 📄 `main.tsx`
+  - 📁 `services`
+    - 📄 `api.ts`
+  - 📁 `store`
+    - 📄 `index.ts`
+  - 📁 `styles`
+    - 📄 `global.css`
+  - 📁 `types`
+    - 📄 `IAiResponse.ts`
+    - 📄 `IJsonData.ts`
+    - 📄 `IPlugin.ts`
+  - 📄 `vite-env.d.ts`
+- 📄 `tsconfig.app.json`
+- 📄 `tsconfig.node.json`
+- 📄 `vite.config.ts`
+- 📄 `vitest.config.ts`
